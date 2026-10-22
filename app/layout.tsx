@@ -16,7 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`font-['Arial'] font-normal h-full antialiased`}
+      className={`font-['Arial'] font-normal h-full antialiased overflow-x-clip `}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
